@@ -22,8 +22,6 @@ A clean, responsive movie discovery application built primarily for learning and
 
 ---
 
----
-
 ## 🔧 Installation & Setup
 
 Clone the repo:
