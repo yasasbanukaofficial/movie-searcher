@@ -1,16 +1,75 @@
-# React + Vite
+# 🍿 Modern Movie Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive movie discovery application built primarily for learning and mastering the modern React + Vite + Tailwind CSS development workflow. This project fetches and beautifully displays up-to-date movie data from The Movie Database (TMDB) API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔎 Search the **latest movies**
+- 🎞️ View detailed movie info (title, poster, rating, overview)
+- 🖼️ Clean and responsive movie card layout
+- ⚡ Fast development experience with Vite
+- 📱 Mobile-friendly design
+- 🎯 Beginner-friendly project structure
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **React** – UI components
+- **Vite** – Fast dev environment
+- **Tailwind CSS** – Styling
+- **TMDB API** – Movie data source
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+---
+
+## 🔧 Installation & Setup
+
+Clone the repo:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+Install Dependencies
+
+```bash
+npm install
+```
+
+# or
+
+```bash
+yarn install
+```
+
+### Set Up Environment Variables
+
+```bash
+This application requires an API key from TMDB to fetch movie data.
+
+Get a TMDB API Key: Register an account on TMDB and generate an API key (v3 or v4).
+
+Create .env file: In the root of your project directory, create a file named .env.
+
+Add your key: Add the following line to the file, replacing YOUR_TMDB_API_KEY with your actual key:
+
+VITE_TMDB_API_KEY=YOUR_TMDB_API_KEY
+
+Run the Application
+
+Start the development server using Vite:
+
+npm run dev
+```
+
+# or
+
+```bash
+yarn dev
+```
+
+The application will now be running at http://localhost:5173/ (or a similar address).
+
+Thanks to JS Mastery for teaching, providing the required assets for this simple learning project.
